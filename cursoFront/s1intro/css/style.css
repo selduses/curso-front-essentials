@@ -1,0 +1,37 @@
+/*Selector, atributo, valor*/
+/*A quien voy a modificar?, qué le voy a modificar?, cómo quiero que quede?*/
+
+*{/*selector universal*/
+   color:navy; 
+}
+
+article{/*selector por tagname*/
+    border:1px solid red;
+}
+
+
+.text-italic{/*selector por clase*/
+   font-style: italic; 
+}
+
+.text-underline{
+    text-decoration: underline;
+}
+
+#main-heading{/*selector por id*/
+    font-size:2.5rem;
+    text-decoration: underline;
+    font-weight:bold;
+}
+
+.text-purple{
+    color:purple
+}
+
+p{
+    color:green
+}
+
+p{
+    color: orange;
+}
